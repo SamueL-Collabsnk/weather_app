@@ -43,3 +43,13 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+
+# Local secrets and configs (do NOT commit your real keys)
+# The file below contains your API key locally and is intentionally ignored.
+key properties
+key propertir
+android/local.properties
+.env
+

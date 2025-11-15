@@ -1,0 +1,7 @@
+# Example secrets file for collaborators. Copy this to `key propertir` and fill in your real API key.
+# Do NOT commit your real API key to the repository.
+
+# Format (one line):
+API_KEY=your_real_api_key_here
+
+# Alternative: set an environment variable named `API_KEY` and update the app to read from the environment.
