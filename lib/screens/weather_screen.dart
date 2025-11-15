@@ -14,9 +14,7 @@ class WeatherScreen extends StatefulWidget {
 }
 
 class _WeatherScreenState extends State<WeatherScreen> {
-  final _weatherService = WeatherService(
-    apiKey: "9e56396ddbe5b60b1371524d1af0cf67",
-  );
+  final _weatherService = WeatherService(apiKey: "APIKEY");
 
   Weather? _weather;
   bool _isLoading = true;
