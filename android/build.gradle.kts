@@ -5,6 +5,14 @@ allprojects {
     }
 }
 
+// Configure JVM toolchain for all subprojects
+subprojects {
+    tasks.withType<JavaCompile>().configureEach {
+        sourceCompatibility = "11"
+        targetCompatibility = "11"
+    }
+}
+
 val newBuildDir: Directory =
     rootProject.layout.buildDirectory
         .dir("../../build")

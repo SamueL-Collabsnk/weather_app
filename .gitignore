@@ -47,9 +47,37 @@ app.*.map.json
 
 
 # Local secrets and configs (do NOT commit your real keys)
-# The file below contains your API key locally and is intentionally ignored.
+# API Keys and Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Security and private keys
+*.pem
+*.p8
+*.jks
+*.keystore
+*.signing.properties
+
+# Android local properties
+android/local.properties
 key properties
 key propertir
-android/local.properties
-.env
+
+# IDE private settings
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Generated files (build artifacts)
+*.o
+*.a
+*.so
+/android/app/google-services.json
+google-services.json
 
